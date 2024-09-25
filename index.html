@@ -4,13 +4,14 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./assets/style.css">
+    <link rel="stylesheet" href="./assets/style.css"/>
     <title>Prework Study Guide</title>
   </head>
   <body>
     <header id="top">
       <h1>Prework Study Guide</h1>
       <img src="./assets/bowtie-cat.png" alt="Profile image of cat wearing a bow tie." />
+      <h2>✨ Open the Console to See What's Happening ✨</h2>
     </header>
     <main>
       <section class="card" id="html-section">
@@ -18,31 +19,19 @@
         <h2>HTML</h2>
 
         <ul>
-          
           <li>The head element contains information about the webpage.</li>
-
           <li>The body element represents the visible content shown to the user.</li>
-
           <li>Best practice for using header elements is to begin with h1 and add them sequentially h2, h3, etc. for accessibility</li>
-          
           <li>Items (metadata) in the head section indicate the page's language and character set of the page, http headers, default view and the page's title caption</li>
-
           <li>Within the page's body, common elements are: header, main and footer</li>
-
           <li>The header element is useful for navigation menus and introductory content</li>
-          
           <li>The main element contains the (javascript) code</li>
-
           <li>The footer element is used to show author, copyright, contact, sitemap, and navigation</li>
-
           <li>Other tags for the body include things such as img (images), a (link anchors), ol/ul (ordered or unordered lists) and li (list items)</li>
-
           <li>Each element can have attributes to provide even more specific characteristics like a unique id or a modified style (class)</li>
-
         </ul>
         
       </section>
-
       
       <section class="card" id="css-section">
         
@@ -50,25 +39,14 @@
 
         <ul>
           <li>A margin indicates how much space we want around the outside of an element.</li>
-          
           <li>A padding indicates how much space we want around the content inside an element.</li>
-
           <li> Inline CSS: apply a style attribute to an individual HTML tag (the least flexible)</li>
-
           <li>Internal style sheet: an embedded style sheet defined with style elements in the head section. These defined rules only apply to elements on that page</li>
-
           <li>External CSS style sheet: CSS rules are defined in a separate file. A change to that file applies for all pages that use it (the most flexible and most common). A link element located in the head section points to the css file</li>
-
           <li>CSS box model: Every HTML element is essentially a box. Each box consists of Margins (space outside the element), the element's Borders, Padding (space around the content inside an element), and the Content itself</li>
-
           <li><pre>display: block;</pre>the element starts on a new line</li>
-
           <li>For the example: <pre>div {color: blue; text-align: justify;}</pre>div is the selector: the selector is one or more elements (comma separated) to which the rule applies<br/>Declaration block: delimited by braces, it contains one or more declarations<br/>Declaration: defines a 'property: value' set of characteristics to apply to the selector, each declaration is terminated by a semicolon</li>
-
           <li>class selector: lets you define a rule that you can apply as a class attribute to specific elements<br/>.classname means apply the style to any element that has the classname attribute</li>
-          
-          <li>Enter your CSS notes here</li>
-
         </ul>
         
       </section>
@@ -109,7 +87,14 @@
         <h2>JavaScript</h2>
 
         <ul>
-          <li>Enter your JavaScript notes here</li>
+          <li>A variable is a named container that allows us to store data in our code.</li>
+          <li>Control flow is the order in which a computer executes code in a script.</li>
+          <li>Strict equality operator (===): needs an exact match (e.g. CSS not CSs)</li>
+          <li>script src: to include the .js file/s in the html</li>
+          <li>Debug using the browser's dev console output</li>
+          <li>To execute a function that is defined you must call it (define functions first call after the definition)</li>
+          <li>JavaScript code is executed in the script in order from top to bottom</li>
+          <li>Use the Math.random function from the built-in <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math">math object</a> for randomization</a></li>
         </ul>
         
       </section>
@@ -118,5 +103,8 @@
     <footer>
       <p>I can code!</p>
     </footer>
+
+    <script src="./assets/script.js"></script>
+    
   </body>
 </html>
